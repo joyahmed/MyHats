@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Price</td>
+      <td>Image</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let hat of Hats">
+      <td>{{ hat.id }}</td>
+      <td>{{ hat.name }}</td>
+      <td>{{ hat.priceUsd }}</td>
+      <td>{{ hat.imageLocation }}</td>
+    </tr>
+  </tbody>
+</table>
